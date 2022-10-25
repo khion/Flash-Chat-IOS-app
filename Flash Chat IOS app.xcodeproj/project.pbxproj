@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		79D1FA9129086FEC00758B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FA9029086FEC00758B12 /* AppDelegate.swift */; };
 		79D1FA9329086FEC00758B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FA9229086FEC00758B12 /* SceneDelegate.swift */; };
-		79D1FA9529086FEC00758B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FA9429086FEC00758B12 /* ViewController.swift */; };
-		79D1FA9829086FEC00758B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FA9629086FEC00758B12 /* Main.storyboard */; };
 		79D1FA9A29086FEE00758B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FA9929086FEE00758B12 /* Assets.xcassets */; };
 		79D1FA9D29086FEE00758B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FA9B29086FEE00758B12 /* LaunchScreen.storyboard */; };
+		79D1FAA8290870B600758B12 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAA7290870B600758B12 /* WelcomeViewController.swift */; };
+		79D1FAAA290870BF00758B12 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAA9290870BF00758B12 /* RegisterViewController.swift */; };
+		79D1FAAC290870D500758B12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAAB290870D500758B12 /* LoginViewController.swift */; };
+		79D1FAAE290870DA00758B12 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAAD290870DA00758B12 /* ChatViewController.swift */; };
+		79D1FAB1290870ED00758B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FAAF290870EC00758B12 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79D1FA8D29086FEC00758B12 /* Flash Chat IOS app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat IOS app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D1FA9029086FEC00758B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79D1FA9229086FEC00758B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79D1FA9429086FEC00758B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		79D1FA9729086FEC00758B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79D1FA9929086FEE00758B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79D1FA9C29086FEE00758B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79D1FA9E29086FEE00758B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D1FAA7290870B600758B12 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Controllers/WelcomeViewController.swift"; sourceTree = "<group>"; };
+		79D1FAA9290870BF00758B12 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Controllers/RegisterViewController.swift"; sourceTree = "<group>"; };
+		79D1FAAB290870D500758B12 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Controllers/LoginViewController.swift"; sourceTree = "<group>"; };
+		79D1FAAD290870DA00758B12 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Controllers/ChatViewController.swift"; sourceTree = "<group>"; };
+		79D1FAB0290870EC00758B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		79D1FA8F29086FEC00758B12 /* Flash Chat IOS app */ = {
 			isa = PBXGroup;
 			children = (
+				79D1FAA62908707D00758B12 /* Models */,
+				79D1FAA52908707800758B12 /* Views */,
+				79D1FAA42908706C00758B12 /* Controllers */,
 				79D1FA9029086FEC00758B12 /* AppDelegate.swift */,
 				79D1FA9229086FEC00758B12 /* SceneDelegate.swift */,
-				79D1FA9429086FEC00758B12 /* ViewController.swift */,
-				79D1FA9629086FEC00758B12 /* Main.storyboard */,
 				79D1FA9929086FEE00758B12 /* Assets.xcassets */,
 				79D1FA9B29086FEE00758B12 /* LaunchScreen.storyboard */,
 				79D1FA9E29086FEE00758B12 /* Info.plist */,
 			);
 			path = "Flash Chat IOS app";
+			sourceTree = "<group>";
+		};
+		79D1FAA42908706C00758B12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79D1FAAD290870DA00758B12 /* ChatViewController.swift */,
+				79D1FAAB290870D500758B12 /* LoginViewController.swift */,
+				79D1FAA9290870BF00758B12 /* RegisterViewController.swift */,
+				79D1FAA7290870B600758B12 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		79D1FAA52908707800758B12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79D1FAAF290870EC00758B12 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79D1FAA62908707D00758B12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D1FAB1290870ED00758B12 /* Main.storyboard in Resources */,
 				79D1FA9D29086FEE00758B12 /* LaunchScreen.storyboard in Resources */,
 				79D1FA9A29086FEE00758B12 /* Assets.xcassets in Resources */,
-				79D1FA9829086FEC00758B12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D1FA9529086FEC00758B12 /* ViewController.swift in Sources */,
+				79D1FAAC290870D500758B12 /* LoginViewController.swift in Sources */,
+				79D1FAAA290870BF00758B12 /* RegisterViewController.swift in Sources */,
+				79D1FAAE290870DA00758B12 /* ChatViewController.swift in Sources */,
+				79D1FAA8290870B600758B12 /* WelcomeViewController.swift in Sources */,
 				79D1FA9129086FEC00758B12 /* AppDelegate.swift in Sources */,
 				79D1FA9329086FEC00758B12 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,20 +183,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		79D1FA9629086FEC00758B12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79D1FA9729086FEC00758B12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		79D1FA9B29086FEE00758B12 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				79D1FA9C29086FEE00758B12 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		79D1FAAF290870EC00758B12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D1FAB0290870EC00758B12 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
