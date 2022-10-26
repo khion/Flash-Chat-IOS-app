@@ -18,6 +18,10 @@
 		79D1FAAE290870DA00758B12 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAAD290870DA00758B12 /* ChatViewController.swift */; };
 		79D1FAB1290870ED00758B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FAAF290870EC00758B12 /* Main.storyboard */; };
 		79D1FAB329088AAD00758B12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FAB229088AAD00758B12 /* GoogleService-Info.plist */; };
+		79D1FAB52908A05300758B12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAB42908A05300758B12 /* Constants.swift */; };
+		79D1FAB72908D2C300758B12 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAB62908D2C300758B12 /* Message.swift */; };
+		79D1FABA2908D8D500758B12 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1FAB82908D8D500758B12 /* MessageCell.swift */; };
+		79D1FABB2908D8D500758B12 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D1FAB92908D8D500758B12 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		79D1FAAD290870DA00758B12 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Controllers/ChatViewController.swift"; sourceTree = "<group>"; };
 		79D1FAB0290870EC00758B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		79D1FAB229088AAD00758B12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79D1FAB42908A05300758B12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		79D1FAB62908D2C300758B12 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		79D1FAB82908D8D500758B12 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		79D1FAB92908D8D500758B12 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		8E5308B4F8F4FF01AA2F9722 /* Pods-Flash Chat IOS app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat IOS app.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat IOS app/Pods-Flash Chat IOS app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +96,7 @@
 				79D1FA9B29086FEE00758B12 /* LaunchScreen.storyboard */,
 				79D1FA9E29086FEE00758B12 /* Info.plist */,
 				79D1FAB229088AAD00758B12 /* GoogleService-Info.plist */,
+				79D1FAB42908A05300758B12 /* Constants.swift */,
 			);
 			path = "Flash Chat IOS app";
 			sourceTree = "<group>";
@@ -107,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				79D1FAAF290870EC00758B12 /* Main.storyboard */,
+				79D1FAB82908D8D500758B12 /* MessageCell.swift */,
+				79D1FAB92908D8D500758B12 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +125,7 @@
 		79D1FAA62908707D00758B12 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				79D1FAB62908D2C300758B12 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D1FABB2908D8D500758B12 /* MessageCell.xib in Resources */,
 				79D1FAB1290870ED00758B12 /* Main.storyboard in Resources */,
 				79D1FAB329088AAD00758B12 /* GoogleService-Info.plist in Resources */,
 				79D1FA9D29086FEE00758B12 /* LaunchScreen.storyboard in Resources */,
@@ -247,8 +260,11 @@
 				79D1FAAA290870BF00758B12 /* RegisterViewController.swift in Sources */,
 				79D1FAAE290870DA00758B12 /* ChatViewController.swift in Sources */,
 				79D1FAA8290870B600758B12 /* WelcomeViewController.swift in Sources */,
+				79D1FAB52908A05300758B12 /* Constants.swift in Sources */,
+				79D1FAB72908D2C300758B12 /* Message.swift in Sources */,
 				79D1FA9129086FEC00758B12 /* AppDelegate.swift in Sources */,
 				79D1FA9329086FEC00758B12 /* SceneDelegate.swift in Sources */,
+				79D1FABA2908D8D500758B12 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
