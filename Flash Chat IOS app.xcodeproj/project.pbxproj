@@ -157,6 +157,8 @@
 			dependencies = (
 			);
 			name = "Flash Chat IOS app";
+			packageProductDependencies = (
+			);
 			productName = "Flash Chat IOS app";
 			productReference = 79D1FA8D29086FEC00758B12 /* Flash Chat IOS app.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +187,8 @@
 				Base,
 			);
 			mainGroup = 79D1FA8429086FEC00758B12;
+			packageReferences = (
+			);
 			productRefGroup = 79D1FA8E29086FEC00758B12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
